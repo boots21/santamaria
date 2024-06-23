@@ -9,7 +9,7 @@
 
         $mailheader = "From:".$name."<".$email.">\r\n";
 s
-        $recipient = "max345041@gmail.com";
+        $recipient = "email";
         
 
         mail($recipient, $subject, $message, $mailheader) or die("Error!");
